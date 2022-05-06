@@ -26,8 +26,8 @@ public class Connection : MonoBehaviour
 
         DontDestroyOnLoad(this.gameObject);
         //websocket = new WebSocket("ws://149.201.117.47:48000");
-        // websocket = new WebSocket("ws://10.6.246.195:48000");
-        websocket = new WebSocket("ws://localhost:8080");
+        websocket = new WebSocket("ws://149.201.218.39:8080");
+        ///websocket = new WebSocket("ws://localhost:8080");
 
         websocket.OnOpen += () =>
         {
