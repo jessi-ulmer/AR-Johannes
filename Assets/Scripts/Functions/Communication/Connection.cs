@@ -22,6 +22,7 @@ public class Connection : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("Software Version 1");
         text_Connection = Debug_Text.GetComponent<Text_Connection>();
 
         DontDestroyOnLoad(this.gameObject);
